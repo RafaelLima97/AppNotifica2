@@ -17,6 +17,11 @@
 		E4786E662A2E1CF300F4A4DC /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E652A2E1CF300F4A4DC /* LoginCoordinator.swift */; };
 		E4786E692A2E1FF700F4A4DC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E682A2E1FF700F4A4DC /* LoginView.swift */; };
 		E4786E6B2A2E201900F4A4DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E6A2A2E201900F4A4DC /* LoginViewController.swift */; };
+		E4786E702A37496400F4A4DC /* UiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E6F2A37496400F4A4DC /* UiColor.swift */; };
+		E4786E732A375B3C00F4A4DC /* ImageDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E722A375B3C00F4A4DC /* ImageDefault.swift */; };
+		E4786E752A37609C00F4A4DC /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E742A37609C00F4A4DC /* ButtonDefault.swift */; };
+		E4786E772A3760B900F4A4DC /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E762A3760B900F4A4DC /* LabelDefault.swift */; };
+		E4786E792A3760CF00F4A4DC /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		E4786E652A2E1CF300F4A4DC /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E4786E682A2E1FF700F4A4DC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E4786E6A2A2E201900F4A4DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4786E6F2A37496400F4A4DC /* UiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColor.swift; sourceTree = "<group>"; };
+		E4786E722A375B3C00F4A4DC /* ImageDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDefault.swift; sourceTree = "<group>"; };
+		E4786E742A37609C00F4A4DC /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		E4786E762A3760B900F4A4DC /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+		E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +74,7 @@
 		E4786E4C2A28CB8F00F4A4DC /* AppNotifica */ = {
 			isa = PBXGroup;
 			children = (
-				E4786E672A2E1FCF00F4A4DC /* Controller */,
-				E4786E622A2E1C1A00F4A4DC /* Coordinator */,
+				E4786E6C2A3748D600F4A4DC /* Source */,
 				E4786E612A2E175400F4A4DC /* Resource */,
 				E4786E5B2A28CB9200F4A4DC /* Info.plist */,
 			);
@@ -101,6 +110,36 @@
 				E4786E6A2A2E201900F4A4DC /* LoginViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4786E6C2A3748D600F4A4DC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E4786E672A2E1FCF00F4A4DC /* Controller */,
+				E4786E622A2E1C1A00F4A4DC /* Coordinator */,
+				E4786E6E2A37491600F4A4DC /* Extension */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E4786E6E2A37491600F4A4DC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4786E712A37593900F4A4DC /* Infrastructure */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E4786E712A37593900F4A4DC /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				E4786E722A375B3C00F4A4DC /* ImageDefault.swift */,
+				E4786E6F2A37496400F4A4DC /* UiColor.swift */,
+				E4786E742A37609C00F4A4DC /* ButtonDefault.swift */,
+				E4786E762A3760B900F4A4DC /* LabelDefault.swift */,
+				E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +218,13 @@
 				E4786E642A2E1C8100F4A4DC /* Coordinator.swift in Sources */,
 				E4786E522A28CB8F00F4A4DC /* ViewController.swift in Sources */,
 				E4786E662A2E1CF300F4A4DC /* LoginCoordinator.swift in Sources */,
+				E4786E772A3760B900F4A4DC /* LabelDefault.swift in Sources */,
+				E4786E732A375B3C00F4A4DC /* ImageDefault.swift in Sources */,
+				E4786E702A37496400F4A4DC /* UiColor.swift in Sources */,
+				E4786E752A37609C00F4A4DC /* ButtonDefault.swift in Sources */,
 				E4786E4E2A28CB8F00F4A4DC /* AppDelegate.swift in Sources */,
 				E4786E502A28CB8F00F4A4DC /* SceneDelegate.swift in Sources */,
+				E4786E792A3760CF00F4A4DC /* TextFieldDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
