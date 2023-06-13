@@ -22,6 +22,9 @@
 		E4786E752A37609C00F4A4DC /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E742A37609C00F4A4DC /* ButtonDefault.swift */; };
 		E4786E772A3760B900F4A4DC /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E762A3760B900F4A4DC /* LabelDefault.swift */; };
 		E4786E792A3760CF00F4A4DC /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */; };
+		E4786E7B2A38995100F4A4DC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E7A2A38995100F4A4DC /* RegisterView.swift */; };
+		E4786E7D2A38996500F4A4DC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E7C2A38996500F4A4DC /* RegisterViewController.swift */; };
+		E4786E7F2A38997C00F4A4DC /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E7E2A38997C00F4A4DC /* RegisterCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		E4786E742A37609C00F4A4DC /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		E4786E762A3760B900F4A4DC /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
 		E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
+		E4786E7A2A38995100F4A4DC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E4786E7C2A38996500F4A4DC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E4786E7E2A38997C00F4A4DC /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 			children = (
 				E4786E632A2E1C8100F4A4DC /* Coordinator.swift */,
 				E4786E652A2E1CF300F4A4DC /* LoginCoordinator.swift */,
+				E4786E7E2A38997C00F4A4DC /* RegisterCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -108,6 +115,8 @@
 			children = (
 				E4786E682A2E1FF700F4A4DC /* LoginView.swift */,
 				E4786E6A2A2E201900F4A4DC /* LoginViewController.swift */,
+				E4786E7A2A38995100F4A4DC /* RegisterView.swift */,
+				E4786E7C2A38996500F4A4DC /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,16 +224,19 @@
 			files = (
 				E4786E6B2A2E201900F4A4DC /* LoginViewController.swift in Sources */,
 				E4786E692A2E1FF700F4A4DC /* LoginView.swift in Sources */,
+				E4786E7B2A38995100F4A4DC /* RegisterView.swift in Sources */,
 				E4786E642A2E1C8100F4A4DC /* Coordinator.swift in Sources */,
 				E4786E522A28CB8F00F4A4DC /* ViewController.swift in Sources */,
 				E4786E662A2E1CF300F4A4DC /* LoginCoordinator.swift in Sources */,
 				E4786E772A3760B900F4A4DC /* LabelDefault.swift in Sources */,
 				E4786E732A375B3C00F4A4DC /* ImageDefault.swift in Sources */,
 				E4786E702A37496400F4A4DC /* UiColor.swift in Sources */,
+				E4786E7D2A38996500F4A4DC /* RegisterViewController.swift in Sources */,
 				E4786E752A37609C00F4A4DC /* ButtonDefault.swift in Sources */,
 				E4786E4E2A28CB8F00F4A4DC /* AppDelegate.swift in Sources */,
 				E4786E502A28CB8F00F4A4DC /* SceneDelegate.swift in Sources */,
 				E4786E792A3760CF00F4A4DC /* TextFieldDefault.swift in Sources */,
+				E4786E7F2A38997C00F4A4DC /* RegisterCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
