@@ -29,6 +29,7 @@
 		E4786E862A49C26100F4A4DC /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E852A49C26100F4A4DC /* HomeCoordinator.swift */; };
 		E4786E882A49C2F500F4A4DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E872A49C2F500F4A4DC /* HomeView.swift */; };
 		E4786E8A2A4BE44300F4A4DC /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4786E892A4BE44300F4A4DC /* ViewControllerDefault.swift */; };
+		E484AE072A4BF619005CC7E4 /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AE062A4BF619005CC7E4 /* ViewDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E4786E852A49C26100F4A4DC /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		E4786E872A49C2F500F4A4DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E4786E892A4BE44300F4A4DC /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
+		E484AE062A4BF619005CC7E4 /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				E4786E762A3760B900F4A4DC /* LabelDefault.swift */,
 				E4786E782A3760CF00F4A4DC /* TextFieldDefault.swift */,
 				E4786E892A4BE44300F4A4DC /* ViewControllerDefault.swift */,
+				E484AE062A4BF619005CC7E4 /* ViewDefault.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				E4786E752A37609C00F4A4DC /* ButtonDefault.swift in Sources */,
 				E4786E8A2A4BE44300F4A4DC /* ViewControllerDefault.swift in Sources */,
 				E4786E4E2A28CB8F00F4A4DC /* AppDelegate.swift in Sources */,
+				E484AE072A4BF619005CC7E4 /* ViewDefault.swift in Sources */,
 				E4786E502A28CB8F00F4A4DC /* SceneDelegate.swift in Sources */,
 				E4786E792A3760CF00F4A4DC /* TextFieldDefault.swift in Sources */,
 				E4786E7F2A38997C00F4A4DC /* RegisterCoordinator.swift in Sources */,
