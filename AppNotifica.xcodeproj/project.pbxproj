@@ -38,6 +38,7 @@
 		E484AE182A4C0BAE005CC7E4 /* NovaOcorrenciaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AE172A4C0BAE005CC7E4 /* NovaOcorrenciaCoordinator.swift */; };
 		E484AE1A2A4C0BC7005CC7E4 /* SobreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AE192A4C0BC7005CC7E4 /* SobreCoordinator.swift */; };
 		E484AE1C2A4C0BF4005CC7E4 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AE1B2A4C0BF4005CC7E4 /* TabBarCoordinator.swift */; };
+		E484AE1E2A4C2E9E005CC7E4 /* EscolherImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484AE1D2A4C2E9E005CC7E4 /* EscolherImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		E484AE172A4C0BAE005CC7E4 /* NovaOcorrenciaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaCoordinator.swift; sourceTree = "<group>"; };
 		E484AE192A4C0BC7005CC7E4 /* SobreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreCoordinator.swift; sourceTree = "<group>"; };
 		E484AE1B2A4C0BF4005CC7E4 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		E484AE1D2A4C2E9E005CC7E4 /* EscolherImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolherImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 			children = (
 				E484AE132A4C0B55005CC7E4 /* NovaOcorrenciaView.swift */,
 				E484AE152A4C0B72005CC7E4 /* NovaOcorrenciaViewController.swift */,
+				E484AE1D2A4C2E9E005CC7E4 /* EscolherImage.swift */,
 			);
 			path = NovaOcorrencia;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E484AE162A4C0B72005CC7E4 /* NovaOcorrenciaViewController.swift in Sources */,
+				E484AE1E2A4C2E9E005CC7E4 /* EscolherImage.swift in Sources */,
 				E4786E6B2A2E201900F4A4DC /* LoginViewController.swift in Sources */,
 				E4786E692A2E1FF700F4A4DC /* LoginView.swift in Sources */,
 				E4786E7B2A38995100F4A4DC /* RegisterView.swift in Sources */,
